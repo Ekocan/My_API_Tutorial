@@ -1,6 +1,12 @@
  
  Error Code	Meaning
 
+200	OK - The request has succeeded. The client can read the result of the request in the body and the headers of the response.
+201	Created - The request has been fulfilled and resulted in a new resource being created.
+202	Accepted - The request has been accepted for processing, but the processing has not been completed.
+204	No Content - The request has succeeded but returns no message body.
+304	Not Modified. See Conditional requests.
+
   400	    Bad Request -- Your request is invalid.
   
   401	    Unauthorized -- Your API key is wrong.
